@@ -9,6 +9,14 @@ public class AuthObject {
 
     private String password;
 
+    public AuthObject() {
+    }
+
+    public AuthObject(String fio, String password) {
+        this.fio = fio;
+        this.password = password;
+    }
+
     public String getFio() {
         return fio;
     }
